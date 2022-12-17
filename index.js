@@ -25,3 +25,5 @@ APP.get("/sunpos", (req, res) => {
 
   res.json(pos);
 });
+
+module.exports = APP;
